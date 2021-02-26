@@ -15,4 +15,5 @@
   [ -6000,  -6999, "AnnoyingPerson"],
   [ -7000,  -7999, "Cyph"],
   [-69000, -69999, "Penkly"],
+  [0, -7000, "invalid test user"],
 ]
