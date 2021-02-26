@@ -1,0 +1,18 @@
+[
+  // Legacy reservations, deprecated
+  [8890100, 8890150, "Sinai"],
+  [5850750, 5850750, "Sinai"],
+  [2800900, 2800902, "Sinai"],
+  [2501000, 2502999, "ehaugw"],
+
+  // active reservations"
+  [     0,   -999, "ehaugw"],
+  [ -1000,  -1999, "IggyTheMad"],
+  [ -2000,  -2999, "Saint"],
+  [ -3000,  -3999, "raphendyr"],
+  [ -4000,  -4999, "Kek"],
+  [ -5000,  -5999, "Captain_Wonders"],
+  [ -6000,  -6999, "AnnoyingPerson"],
+  [ -7000,  -7999, "Cyph"],
+  [-69000, -69999, "Penkly"],
+]
