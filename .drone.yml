@@ -8,4 +8,4 @@ steps:
   commands:
   - pip install pyjson5
   - cd id-reservations
-  - python3 verify.py item-ids.json5
+  - python3 verify.py --order-desc item-ids.json5

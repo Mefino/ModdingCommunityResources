@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+import argparse
+import operator
 import sys
 from pyjson5 import load
 
@@ -7,9 +9,23 @@ def slice_overlap(a, b):
     b1, b2 = (b[0], b[1]) if b[0] <= b[1] else (b[1], b[0])
     return a1 <= b2 and b1 <= a2
 
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Verifies ID reservation files.")
+    parser.add_argument('file', metavar='FILE', type=str,
+                        help='The file to be verified')
+    parser.add_argument('--order-desc', dest='desc', action='store_true',
+                        help="ID numbers are in descending ordering")
+    return parser.parse_args()
+
+
 if __name__ == '__main__':
-    with open(sys.argv[1], 'r') as f:
+    args = parse_args()
+
+    with open(args.file, 'r') as f:
         data = load(f)
+
+    in_order = operator.gt if args.desc else operator.lt
 
     reservations = []
     error = False
@@ -27,7 +43,7 @@ if __name__ == '__main__':
                     print(f"Overlapping record number {i} {item}, offends {num} {[y[0], y[1], name]}", file=sys.stderr)
                     error = True
                     ok = False
-                elif order and x[0] > y[0]:
+                elif order and in_order(x[0], y[0]):
                     print(f"Record out of order {i} {item}", file=sys.stderr)
                     error = True
                     order = False
@@ -35,7 +51,7 @@ if __name__ == '__main__':
                 reservations.append((i, x, username))
 
     # check trailing commas
-    with open(sys.argv[1], 'r') as f:
+    with open(args.file, 'r') as f:
         for num, line in enumerate(f, 1):
             if line.endswith('"]\n'):
                 print(f"Line {num} does not end in comma.", file=sys.stderr)
