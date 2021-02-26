@@ -1,0 +1,11 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: check-reservations
+  image: python:3
+  commands:
+  - pip install pyjson5
+  - cd id-reservations
+  - python3 verify.py item-ids.json5
