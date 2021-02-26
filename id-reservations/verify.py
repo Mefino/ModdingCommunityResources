@@ -34,4 +34,11 @@ if __name__ == '__main__':
             if ok:
                 reservations.append((i, x, username))
 
+    # check trailing commas
+    with open(sys.argv[1], 'r') as f:
+        for num, line in enumerate(f, 1):
+            if line.endswith('"]\n'):
+                print(f"Line {num} does not end in comma.", file=sys.stderr)
+                error = True
+
     sys.exit(1 if error else 0)
