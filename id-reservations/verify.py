@@ -21,11 +21,16 @@ if __name__ == '__main__':
             first, last, username = item
             x = (first, last)
             ok = True
+            order = True
             for (num, y, name) in reservations:
                 if slice_overlap(x, y):
                     print(f"Overlapping record number {i} {item}, offends {num} {[y[0], y[1], name]}", file=sys.stderr)
                     error = True
                     ok = False
+                elif order and x[0] > y[0]:
+                    print(f"Record out of order {i} {item}", file=sys.stderr)
+                    error = True
+                    order = False
             if ok:
                 reservations.append((i, x, username))
 
