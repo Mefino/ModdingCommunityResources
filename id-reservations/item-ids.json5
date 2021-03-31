@@ -5,7 +5,7 @@
   [2800900, 2800902, "Sinai"],
   [2501000, 2502999, "ehaugw"],
 
-  // active reservations"
+  // active reservations
   [     0,   -999, "ehaugw"],
   [ -1000,  -1999, "IggyTheMad"],
   [ -2000,  -2999, "Saint"],
@@ -15,5 +15,6 @@
   [ -6000,  -6999, "AnnoyingPerson"],
   [ -7000,  -7999, "Cyph"],
   [ -8000,  -8999, "Old-FW"],
+  [ -9000,  -9999, "Chief-Michael"],
   [-69000, -69999, "Penkly"],
 ]
