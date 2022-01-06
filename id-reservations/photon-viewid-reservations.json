@@ -33,5 +33,10 @@
     "start": 4000,
     "end": 4199,
     "name": "Used by game"
+  },
+  {
+    "start": 960,
+    "end": 969,
+    "name": "Exp"
   }
 ]
