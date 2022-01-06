@@ -1,0 +1,37 @@
+[
+  {
+    "start": 0,
+    "end": 100,
+    "name": "Used by game"
+  },
+  {
+    "start": 899,
+    "end": 909,
+    "name": "Sinai"
+  },
+  {
+    "start": 950,
+    "end": 959,
+    "name": "ehaugw"
+  },
+  {
+    "start": 999,
+    "end": 1199,
+    "name": "Used by game"
+  },
+  {
+    "start": 2000,
+    "end": 2199,
+    "name": "Used by game"
+  },
+  {
+    "start": 3000,
+    "end": 3199,
+    "name": "Used by game"
+  },
+  {
+    "start": 4000,
+    "end": 4199,
+    "name": "Used by game"
+  }
+]
