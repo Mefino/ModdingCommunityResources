@@ -113,5 +113,10 @@
     "start": -99000,
     "end": -99999,
     "name": "Etzix"
+  },
+  {
+    "start": -12000,
+    "end": -12999,
+    "name": "Faeryn"
   }
 ]
