@@ -110,6 +110,11 @@
     "name": "Eiggy"
   },
   {
+    "start": -18000,
+    "end": -18999,
+    "name": "Zepharius"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -120,8 +125,8 @@
     "name": "Etzix"
   },
   {
-    "start": -18000,
-    "end": -18999,
-    "name": "Zepharius"
+    "start": -19000,
+    "end": -19999,
+    "name": "FluffyTail"
   }
 ]
