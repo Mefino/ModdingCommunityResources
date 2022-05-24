@@ -80,6 +80,11 @@
     "name": "Bluescreen"
   },
   {
+    "start": -12000,
+    "end": -12999,
+    "name": "Faeryn"
+  },
+  {
     "start": -13000,
     "end": -13999,
     "name": "Valtiel"
@@ -115,8 +120,8 @@
     "name": "Etzix"
   },
   {
-    "start": -12000,
-    "end": -12999,
-    "name": "Faeryn"
+    "start": -18000,
+    "end": -18999,
+    "name": "Zepharius"
   }
 ]
