@@ -115,6 +115,11 @@
     "name": "Zepharius"
   },
   {
+    "start": -19000,
+    "end": -19999,
+    "name": "FluffyTail"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -125,8 +130,8 @@
     "name": "Etzix"
   },
   {
-    "start": -19000,
-    "end": -19999,
-    "name": "FluffyTail"
+    "start": -20000,
+    "end": -20999,
+    "name": "Flashman996"
   }
 ]
