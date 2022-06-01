@@ -140,6 +140,11 @@
     "name": "AlienVSyourMom"
   },
   {
+    "start": -24000,
+    "end": -24999,
+    "name": "flo"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -150,8 +155,8 @@
     "name": "Etzix"
   },
   {
-    "start": -24000,
-    "end": -24999,
-    "name": "flo"
+    "start": -25000,
+    "end": -25999,
+    "name": "Sloathe"
   }
 ]
