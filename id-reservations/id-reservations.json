@@ -145,6 +145,11 @@
     "name": "flo"
   },
   {
+    "start": -25000,
+    "end": -25999,
+    "name": "Sloathe"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -155,8 +160,8 @@
     "name": "Etzix"
   },
   {
-    "start": -25000,
-    "end": -25999,
-    "name": "Sloathe"
+    "start": -26000,
+    "end": -26999,
+    "name": "Emo"
   }
 ]
