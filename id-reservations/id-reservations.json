@@ -150,6 +150,11 @@
     "name": "Sloathe"
   },
   {
+    "start": -26000,
+    "end": -26999,
+    "name": "Emo"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -160,8 +165,8 @@
     "name": "Etzix"
   },
   {
-    "start": -26000,
-    "end": -26999,
-    "name": "Emo"
+    "start": -27000,
+    "end": -27999,
+    "name": "Kero"
   }
 ]
