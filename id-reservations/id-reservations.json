@@ -155,6 +155,11 @@
     "name": "Emo"
   },
   {
+    "start": -27000,
+    "end": -27999,
+    "name": "Kero"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -165,8 +170,8 @@
     "name": "Etzix"
   },
   {
-    "start": -27000,
-    "end": -27999,
-    "name": "Kero"
+    "start": -28000,
+    "end": -28999,
+    "name": "Breadcrumb_Lord"
   }
 ]
