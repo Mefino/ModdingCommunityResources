@@ -165,6 +165,11 @@
     "name": "Breadcrumb_Lord"
   },
   {
+    "start": -29000,
+    "end": -29999,
+    "name": "Zyzanx"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -175,8 +180,8 @@
     "name": "Etzix"
   },
   {
-    "start": -29000,
-    "end": -29999,
-    "name": "Zyzanx"
+    "start": -30000,
+    "end": -30999,
+    "name": "Proboina"
   }
 ]
