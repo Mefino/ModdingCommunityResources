@@ -170,6 +170,11 @@
     "name": "Zyzanx"
   },
   {
+    "start": -30000,
+    "end": -30999,
+    "name": "Proboina"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -180,11 +185,6 @@
     "name": "Etzix"
   },
   {
-    "start": -30000,
-    "end": -30999,
-    "name": "Proboina"
-  },
-  {
     "start": -13010000,
     "end": -13010999,
     "name": "ModifAmorphic"
@@ -193,5 +193,10 @@
     "start": -1303100000,
     "end": -1303109999,
     "name": "ModifAmorphic"
+  },
+  {
+    "start": -31000,
+    "end": -31999,
+    "name": "psyconius"
   }
 ]
