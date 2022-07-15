@@ -175,6 +175,11 @@
     "name": "Proboina"
   },
   {
+    "start": -31000,
+    "end": -31999,
+    "name": "psyconius"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -195,8 +200,8 @@
     "name": "ModifAmorphic"
   },
   {
-    "start": -31000,
-    "end": -31999,
-    "name": "psyconius"
+    "start": -32000,
+    "end": -32999,
+    "name": "Dark Light"
   }
 ]
