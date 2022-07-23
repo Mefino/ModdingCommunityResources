@@ -180,6 +180,11 @@
     "name": "psyconius"
   },
   {
+    "start": -32000,
+    "end": -32999,
+    "name": "Dark Light"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -200,8 +205,8 @@
     "name": "ModifAmorphic"
   },
   {
-    "start": -32000,
-    "end": -32999,
-    "name": "Dark Light"
+    "start": -33000,
+    "end": -33999,
+    "name": "Arti"
   }
 ]
