@@ -15,6 +15,11 @@
     "name": "IggyTheMad"
   },
   {
+    "start": 920,
+    "end": 929,
+    "name": "psyconius"
+  },
+  {
     "start": 950,
     "end": 959,
     "name": "ehaugw"
@@ -48,10 +53,5 @@
     "start": 4000,
     "end": 4199,
     "name": "Used by game"
-  },
-  {
-    "start": 910,
-    "end": 919,
-    "name": "psyconius"
   }
 ]
