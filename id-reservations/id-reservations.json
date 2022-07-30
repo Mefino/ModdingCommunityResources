@@ -185,6 +185,16 @@
     "name": "Dark Light"
   },
   {
+    "start": -33000,
+    "end": -33999,
+    "name": "Arti"
+  },
+  {
+    "start": -34000,
+    "end": -34999,
+    "name": "Arti"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
@@ -203,10 +213,5 @@
     "start": -1303100000,
     "end": -1303109999,
     "name": "ModifAmorphic"
-  },
-  {
-    "start": -33000,
-    "end": -33999,
-    "name": "Arti"
   }
 ]
