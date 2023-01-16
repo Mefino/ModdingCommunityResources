@@ -250,6 +250,11 @@
     "name": "Xain"
   },
   {
+    "start": -46000,
+    "end": -46999,
+    "name": "Exp"
+  },
+  {
     "start": -69000,
     "end": -69999,
     "name": "Penkly"
